@@ -21,7 +21,7 @@ else:
 
 
 class Lorenz96:
-    def __init__(self, Nx=40, dt=0.01, F=8.0, integrator="rk4"):
+    def __init__(self, Nx=40, dt=0.05, F=8.0, integrator="rk4"):
         self.Nx = Nx
         self.dt = dt
         self.F = F
