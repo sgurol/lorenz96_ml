@@ -15,7 +15,7 @@ import os
 import sys
 
 if 'google.colab' in sys.modules:
-    PATH = "lorenz96/outputs"
+    PATH = "lorenz96_ml/outputs"
 else:
     PATH = "./outputs"
 
